@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+        <Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+                  xmlns:o="urn:schemas-microsoft-com:office:office"
+                  xmlns:x="urn:schemas-microsoft-com:office:excel"
+                  xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+                  xmlns:html="http://www.w3.org/TR/REC-html40">
+        <Worksheet ss:Name="Programa">
+        <Table><Row><Cell><Data ss:Type="String">id_programa</Data></Cell><Cell><Data ss:Type="String">nombre_programa</Data></Cell><Cell><Data ss:Type="String">descripcion</Data></Cell><Cell><Data ss:Type="String">fecha_inicio</Data></Cell><Cell><Data ss:Type="String">fecha_fin</Data></Cell><Cell><Data ss:Type="String">status</Data></Cell></Row><Row><Cell><Data ss:Type="String">6</Data></Cell><Cell><Data ss:Type="String">Futbol</Data></Cell><Cell><Data ss:Type="String">Entrega de uniformes de fut</Data></Cell><Cell><Data ss:Type="String">2025-02-07</Data></Cell><Cell><Data ss:Type="String">2025-04-04</Data></Cell><Cell><Data ss:Type="String">Inactivo</Data></Cell></Row></Table></Worksheet></Workbook>

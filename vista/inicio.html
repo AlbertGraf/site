@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" href="../public/css/estilos.css">
+    <script>
+        window.onload = function() {
+            const params = new URLSearchParams(window.location.search);
+            const error = params.get("error");
+            if (error) {
+                alert(decodeURIComponent(error));
+            }
+        };
+    </script>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <img src="../public/img/1.png" alt="Login ilustración">
+        </div>
+        <div class="right">
+            <div class="card">
+                <img src="../public/img/2.png" alt="Logo" class="logo">
+                <h2>BIENVENIDO</h2>
+                <h3>Plataforma de registro de acciones sociales  de la Alcaldia Tláhuac</h3>
+                <form method="POST" action="../controlador/UsuarioControlador.php">
+                    <input type="email" name="correo" placeholder="Usuario*" required>
+                    <small>Ejemplo: usuario@dominio.com</small>
+                    <input type="password" name="clave" placeholder="Contraseña*" required>
+                    <button type="submit">INICIAR</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
